@@ -1,0 +1,28 @@
+h4 {
+    color: #741A1B; 
+}
+
+#jobdescription {
+    font-weight: 200;
+    color: #0E0D24;
+}
+
+section#pastevents>ul {
+    text-decoration-line: underline;    
+}
+
+main q {
+    font-style: italic;
+    font-size: larger;
+}
+
+h1 {
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    line-height: 2em;
+}
+
+section#rebelbeauties a:hover {
+    font-size: 200%;
+    color: #FE9900; 
+}
