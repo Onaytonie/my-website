@@ -1,28 +1,64 @@
 h4 {
-    color: #741A1B; 
+    color: #741A1B;
+    font-size: medium;
+}
+
+#bio {
+    padding: 1em;
 }
 
 #jobdescription {
-    font-weight: 200;
+    font-weight: 100;
     color: #0E0D24;
 }
 
 section#pastevents>ul {
-    text-decoration-line: underline;    
+    text-decoration-line: underline;
+}
+
+section#pastevents>h2 {
+    padding: .3em;
+}
+
+section#rebelbeauties>h2 {
+    padding: .3em;
 }
 
 main q {
     font-style: italic;
-    font-size: larger;
+    font-size: medium;
+    color: white;
+    border: white thin dashed;
+    text-align: center;
+    background-color: black;
+    padding: .4em;
+
 }
 
 h1 {
-    font-family: Impact,'Arial Narrow Bold', sans-serif;
-    font-weight: 600;
-    line-height: 2em;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    line-height: 1em;
 }
 
 section#rebelbeauties a:hover {
     font-size: 200%;
-    color: #FE9900; 
+    color: #FE9900;
+
+}
+
+header#profilepic>img {
+    border: thin black solid;
+    border-radius: 10px;
+}
+
+body {
+    height: 400px;
+    background-image: url(images/solidbackground.jpg)
+}
+
+article {
+    column-count: 3;
+    column-gap: 35px;
+    column-rule: 2px solid black;
 }
