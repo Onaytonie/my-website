@@ -1,10 +1,17 @@
 h4 {
     color: #741A1B;
     font-size: medium;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }
 
 #bio {
     padding: 1em;
+    columns: 1;
+
 }
 
 #jobdescription {
@@ -18,10 +25,17 @@ section#pastevents>ul {
 
 section#pastevents>h2 {
     padding: .3em;
+    text-align: left;
 }
 
 section#rebelbeauties>h2 {
     padding: .3em;
+    text-align: left;
+}
+
+section#school>h2 {
+    padding: .3em;
+    text-align: left;
 }
 
 main q {
@@ -31,18 +45,19 @@ main q {
     border: white thin dashed;
     text-align: center;
     background-color: black;
-    padding: .4em;
+    padding: .2em;
 
 }
 
 h1 {
-    font-family: 'Arial Narrow Bold', sans-serif;
-    font-weight: 300;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-weight: 200;
     line-height: 1em;
+    text-align: center;   
 }
 
 section#rebelbeauties a:hover {
-    font-size: 200%;
+    font-size: 100%;
     color: #FE9900;
 
 }
@@ -50,8 +65,14 @@ section#rebelbeauties a:hover {
 header#profilepic>img {
     border: thin black solid;
     border-radius: 10px;
+    width: 25%;
+    float: left;
+   
 }
 
+br {
+    clear: both;
+}
 body {
     height: 400px;
     background-image: url(images/solidbackground.jpg)
@@ -61,4 +82,23 @@ article {
     column-count: 3;
     column-gap: 35px;
     column-rule: 2px solid black;
+}
+
+#navmenu ul {
+    list-style-type: none;
+    padding: 1em 0;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#navmenu ul li {
+    display: inline;
+    padding: 0 1.5em;
+}
+#navmenu ul li a {
+    font-weight: bold;
+    color: black;
+}
+#navmenu ul li a.current {
+    text-decoration: none;
 }
