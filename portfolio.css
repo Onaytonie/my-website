@@ -1,10 +1,51 @@
-  
+/*PHOTOGRAPHY PHOTOS*/
 .photography {
-    display:grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-    grid-template-rows: repeat(2, auto); /* 2 rows */
-    gap: 10px; /* Spacing between images */
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-}            
+    height: 400px;
+    display: grid;
+    grid-template: repeat(2, 150px)/ repeat(4, 150px);
+    grid-gap: 10px 10px;
+}
+
+/*PAINTANDPARTY PHOTOS*/
+#paintandpartygrid {
+    display: grid;
+    grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+    padding: 20px;
+    grid-gap: 10px;
+}
+
+/*HOMEPAGE*/
+#coverpage {
+    display: flex;
+    padding: 1em;
+    margin: 1em;
+    text-align: left;
+}
+
+/*HOMEPAGE*/
+#coverpageimage,
+#coverpagediv {
+    flex-basis: 50%;
+}
+
+/*HOMEPAGE*/
+#coverpagediv {
+    padding: 20px;
+    padding-top: 400px;
+}
+
+/*HOMEPAGE*/
+#coverh3 {
+    text-align: left;
+}
+
+/*HOMEPAGE*/
+#coverh1 {
+    text-align: left;
+    font-weight: bold;
+}
+
+/*HOMEPAGE*/
+#coverp {
+    text-align: left;
+}

@@ -1,3 +1,9 @@
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif font-weight: 200%;
+    line-height: 1em;
+    text-align: center;
+}
+
 h4 {
     color: #741A1B;
     font-size: medium;
@@ -8,82 +14,70 @@ h2 {
     text-align: center;
 }
 
+/*HOMEPAGE*/
 #bio {
     padding: 1em;
     columns: 1;
-
 }
 
+/*ARTISTCV*/
 #jobdescription {
     font-weight: 100;
     color: #0E0D24;
 }
 
-section#pastevents>ul {
-    text-decoration-line: underline;
-}
-
+/*ARTISTCV*/
 section#pastevents>h2 {
     padding: .3em;
     text-align: left;
 }
 
+/*ARTISTCV*/
 section#rebelbeauties>h2 {
     padding: .3em;
     text-align: left;
 }
 
-section#school>h2 {
+/*ARTISTCV*/
+section#website>h2 {
     padding: .3em;
     text-align: left;
 }
 
-main q {
-    font-style: italic;
-    font-size: medium;
-    color: white;
-    border: white thin dashed;
-    text-align: center;
-    background-color: black;
-    padding: .2em;
 
-}
-
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-    font-weight: 200;
-    line-height: 1em;
-    text-align: center;   
-}
-
+/*ARTISTCV*/
 section#rebelbeauties a:hover {
     font-size: 100%;
     color: #FE9900;
-
 }
 
+/*HOMEPAGE profile image*/
 header#profilepic>img {
     border: thin black solid;
     border-radius: 10px;
     width: 25%;
-    float: left;
-   
+    float: right;
+    margin-right: 10%;
 }
 
 br {
     clear: both;
 }
+
+/*WEB BACKGROUND*/
 body {
     height: 400px;
     background-image: url(images/solidbackground.jpg)
 }
 
+/*BRANDSTORY*/
 article {
     column-count: 3;
     column-gap: 35px;
     column-rule: 2px solid black;
 }
 
+/*NAVIGATION MENU*/
 #navmenu ul {
     list-style-type: none;
     padding: 1em 0;
@@ -91,14 +85,96 @@ article {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
+
 #navmenu ul li {
     display: inline;
     padding: 0 1.5em;
 }
+
 #navmenu ul li a {
     font-weight: bold;
     color: black;
 }
+
 #navmenu ul li a.current {
     text-decoration: none;
+}
+
+/*MOBILE QUERY small changes that happens when webpage is smaller*/
+@media only screen and (max-width:850px) {
+
+    /*NAV MENU*/
+    #navmenu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navmenu ul li {
+        background: black;
+        width: 150px;
+        margin: 0 15px 15px 0;
+        padding: 5px;
+        text-align: center;
+    }
+
+    #navmenu ul li a {
+        color: white;
+    }
+
+    /*HOMEPAGE QUOTE*/
+    main q {
+        font-style: italic;
+        font-size: medium;
+        font-weight: 100;
+        color: black;
+        background-color: beige;
+        padding: .2em;
+    }
+
+    /*HOMEPAGE*/
+    section#pastevents>h2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    section#rebelbeauties>h2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    section#websitel>h2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /*PAINT AND PARTY*/
+    main#paintandparty>p {
+        display: flex;
+        background-color: black;
+        padding: 1em;
+        margin: 1em;
+        border-radius: 10px;
+        color: white;
+    }
+
+    /*PHOTOGRAPHY*/
+    main#photography>p {
+        display: flex;
+        background-color: black;
+        padding: 1em;
+        margin: 1em;
+        border-radius: 10px;
+        color: white;
+    }
+
+    /*BRAND STORY*/
+    article {
+        column-count: 2;
+        column-gap: 35px;
+        column-rule: 2px solid black;
+    }
 }
