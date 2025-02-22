@@ -1,13 +1,13 @@
-/*PHOTOGRAPHY PHOTOS*/
-.photography {
-    height: 400px;
-    display: grid;
-    grid-template: repeat(2, 150px)/ repeat(4, 150px);
-    grid-gap: 10px 10px;
-}
 
 /*PAINTANDPARTY PHOTOS*/
 #paintandpartygrid {
+    display: grid;
+    grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+    padding: 20px;
+    grid-gap: 10px;
+}
+/*PHOTGRAPHY PHOTOS*/
+#photographygrid {
     display: grid;
     grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
     padding: 20px;
@@ -22,13 +22,20 @@
     text-align: left;
 }
 
+#artistcvgrid {
+display: flex;
+padding: 1em;
+margin: 1em;
+text-align: left;
+}
+
 /*HOMEPAGE*/
 #coverpageimage,
 #coverpagediv {
     flex-basis: 50%;
 }
 
-/*HOMEPAGE*/
+/*HOMEPAGE PARAGRAPH*/
 #coverpagediv {
     padding: 20px;
     padding-top: 400px;
