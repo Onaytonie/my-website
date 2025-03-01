@@ -1,17 +1,36 @@
-/*paint and party css*/
-#paintandpartygrid {
+/*artsitcv page css*/
+#artistcvgrid {
     display: grid;
-    grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
-    padding: 20px;
-    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px 20px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
 }
 
-/*Photgraphy css*/
-#photographygrid {
-    display: grid;
-    grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
-    padding: 20px;
-    grid-gap: 10px;
+#jobdescription {
+    font-weight: 100;
+    color: #0E0D24;
+}
+
+section#pastevents>h2 {
+    padding: .3em;
+    text-align: left;
+}
+
+section#rebelbeauties>h2 {
+    padding: .3em;
+    text-align: left;
+}
+
+section#website>h2 {
+    padding: .3em;
+    text-align: left;
+}
+
+section#rebelbeauties a:hover {
+    font-size: 100%;
+    color: #FE9900;
 }
 
 /*index css*/
@@ -22,7 +41,21 @@
     text-align: left;
 }
 
-#coverpageimage, #coverpagediv {
+#bio {
+    padding: 1em;
+    columns: 1;
+}
+
+header#profilepic>img {
+    border: thin black solid;
+    border-radius: 10px;
+    width: 25%;
+    float: right;
+    margin-right: 10%;
+}
+
+#coverpageimage,
+#coverpagediv {
     flex-basis: 50%;
 }
 
@@ -42,4 +75,100 @@
 
 #coverp {
     text-align: left;
+}
+
+/*paint and party css*/
+#paintandpartygrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px 20px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+/*Photgraphy css*/
+#photographygrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px 20px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.images {
+    width: 400px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:1350px) {
+    #photographygrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px 20px;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+/*Media quiry for all photo grids and mobile*/
+@media only screen and (max-width:850px) {
+    #photographygrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px 20px;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (max-width:1350px) {
+    #artistcvgrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px 20px;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    #artistcvgrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px 20px;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (max-width:1350px) {
+    #paintandpartygrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px 20px;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    #paintandpartygrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px 20px;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        margin-left: 25%;
+    }
 }

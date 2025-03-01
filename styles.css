@@ -22,7 +22,8 @@
 }
 
 h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif font-weight: 200%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200%;
     line-height: 1em;
     text-align: center;
 }
@@ -44,20 +45,6 @@ body {
 }
 
 
-/*index page css*/
-#bio {
-    padding: 1em;
-    columns: 1;
-}
-
-header#profilepic>img {
-    border: thin black solid;
-    border-radius: 10px;
-    width: 25%;
-    float: right;
-    margin-right: 10%;
-}
-
 br {
     clear: both;
 }
@@ -70,37 +57,9 @@ article {
     column-rule: 2px solid black;
 }
 
-/*artsitcv page css*/
-#jobdescription {
-    font-weight: 100;
-    color: #0E0D24;
-}
-
-section#pastevents>h2 {
-    padding: .3em;
-    text-align: left;
-}
-
-section#rebelbeauties>h2 {
-    padding: .3em;
-    text-align: left;
-}
-
-section#website>h2 {
-    padding: .3em;
-    text-align: left;
-}
-
-section#rebelbeauties a:hover {
-    font-size: 100%;
-    color: #FE9900;
-}
-
-
-
-
-/*MOBILE QUERY small changes that happens when webpage is smaller*/
+/*Media query for the menu*/
 @media only screen and (max-width:850px) {
+
     /*NAV MENU*/
     #navmenu ul {
         display: flex;
@@ -120,73 +79,72 @@ section#rebelbeauties a:hover {
         color: white;
     }
 
-    /*index page media query*/
-    #coverpage {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-bottom: 800px;
-    }
-
-    #profilepic {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    main q {
-        font-style: italic;
-        font-size: medium;
-        font-weight: 100;
-        color: black;
-        background-color: beige;
-        padding: .2em;
-    }
-
-   /*artist cv page media query*/
-    section#pastevents>h2 {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    section#rebelbeauties>h2 {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    section#websitel>h2 {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-     /*paint and party page media query*/
-    main#paintandparty>p {
-        display: flex;
-        background-color: black;
-        padding: 1em;
-        margin: 1em;
-        border-radius: 10px;
-        color: white;
-    }
-
-   /*photography page media query*/
-    main#photography>p {
-        display: flex;
-        background-color: black;
-        padding: 1em;
-        margin: 1em;
-        border-radius: 10px;
-        color: white;
-    }
-
- /*brand story page media query*/
-    article {
-        column-count: 2;
-        column-gap: 35px;
-        column-rule: 2px solid black;
-    }
+/*index page media query*/
+#coverpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 800px;
 }
 
+#profilepic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main q {
+    font-style: italic;
+    font-size: medium;
+    font-weight: 100;
+    color: black;
+    background-color: beige;
+    padding: .2em;
+}
+
+/*artist cv page media query*/
+section#pastevents>h2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+section#rebelbeauties>h2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+section#websitel>h2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/*paint and party page media query*/
+main#paintandparty>p {
+    display: flex;
+    background-color: black;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+    color: white;
+}
+
+/*photography page media query*/
+main#photography>p {
+    display: flex;
+    background-color: black;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+    color: white;
+}
+
+/*brand story page media query*/
+article {
+    column-count: 2;
+    column-gap: 35px;
+    column-rule: 2px solid black;
+}
+}
