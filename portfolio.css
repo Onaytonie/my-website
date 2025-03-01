@@ -1,12 +1,12 @@
-
-/*PAINTANDPARTY PHOTOS*/
+/*paint and party css*/
 #paintandpartygrid {
     display: grid;
     grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
     padding: 20px;
     grid-gap: 10px;
 }
-/*PHOTGRAPHY PHOTOS*/
+
+/*Photgraphy css*/
 #photographygrid {
     display: grid;
     grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
@@ -14,7 +14,7 @@
     grid-gap: 10px;
 }
 
-/*HOMEPAGE*/
+/*index css*/
 #coverpage {
     display: flex;
     padding: 1em;
@@ -22,37 +22,24 @@
     text-align: left;
 }
 
-#artistcvgrid {
-display: flex;
-padding: 1em;
-margin: 1em;
-text-align: left;
-}
-
-/*HOMEPAGE*/
-#coverpageimage,
-#coverpagediv {
+#coverpageimage, #coverpagediv {
     flex-basis: 50%;
 }
 
-/*HOMEPAGE PARAGRAPH*/
 #coverpagediv {
     padding: 20px;
     padding-top: 400px;
 }
 
-/*HOMEPAGE*/
 #coverh3 {
     text-align: left;
 }
 
-/*HOMEPAGE*/
 #coverh1 {
     text-align: left;
     font-weight: bold;
 }
 
-/*HOMEPAGE*/
 #coverp {
     text-align: left;
 }
