@@ -22,11 +22,13 @@
 }
 
 h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 200%;
     line-height: 1em;
     text-align: center;
+    font-family: "Poller One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
 
 h4 {
     color: #741A1B;
@@ -79,72 +81,71 @@ article {
         color: white;
     }
 
-/*index page media query*/
-#coverpage {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 800px;
-}
+    /*index page media query*/
+    #coverpage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-#profilepic {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    #profilepic {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-main q {
-    font-style: italic;
-    font-size: medium;
-    font-weight: 100;
-    color: black;
-    background-color: beige;
-    padding: .2em;
-}
+    main q {
+        font-style: italic;
+        font-size: medium;
+        font-weight: 100;
+        color: black;
+        background-color: beige;
+        padding: .2em;
+    }
 
-/*artist cv page media query*/
-section#pastevents>h2 {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
+    /*artist cv page media query*/
+    section#pastevents>h2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
-section#rebelbeauties>h2 {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
+    section#rebelbeauties>h2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
-section#websitel>h2 {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
+    section#websitel>h2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
-/*paint and party page media query*/
-main#paintandparty>p {
-    display: flex;
-    background-color: black;
-    padding: 1em;
-    margin: 1em;
-    border-radius: 10px;
-    color: white;
-}
+    /*paint and party page media query*/
+    main#paintandparty>p {
+        display: flex;
+        background-color: black;
+        padding: 1em;
+        margin: 1em;
+        border-radius: 10px;
+        color: white;
+    }
 
-/*photography page media query*/
-main#photography>p {
-    display: flex;
-    background-color: black;
-    padding: 1em;
-    margin: 1em;
-    border-radius: 10px;
-    color: white;
-}
+    /*photography page media query*/
+    main#photography>p {
+        display: flex;
+        background-color: black;
+        padding: 1em;
+        margin: 1em;
+        border-radius: 10px;
+        color: white;
+    }
 
-/*brand story page media query*/
-article {
-    column-count: 2;
-    column-gap: 35px;
-    column-rule: 2px solid black;
-}
+    /*brand story page media query*/
+    article {
+        column-count: 2;
+        column-gap: 35px;
+        column-rule: 2px solid black;
+    }
 }

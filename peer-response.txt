@@ -1,0 +1,11 @@
+1.One of the things I might suggest on the artist CV page where you're displaying your paintings is to give them a contrasting border know that they stand out a little bit more.
+    I added a black solid border around each individual image on that "Artist CV" page only. I wanted to keep the photos on the other pages clean and simple with rounded edges. 
+
+3.I noticed in your footer you have your website and Instagram name titled at the bottom but they are not in the form of a link i would highly recommend making them an accessible link people can click on.
+    Good suggestion. I added a clickable link on every page that direct users to my website and my instagram page. 
+
+4.The few changes I would suggest is changing the left-margin to 5% in the media query for #artistcvgrid, #paintandpartygrid, and #photographygrid.  Changing the margin centered the images more inline with the nav menu and text box above.  
+    This was vey helpful because I couldnt find the right percentage that would center my images while in mobile. I added a margin-left: 5% at the max-width:850px media query for each grid.
+
+5. Also, the header#profilepic>img in portfolio.css margin-right could be reduced so that the image doesn't overlap with the image on the left. 
+    I didnt ntice this, so good catch. I changed the margin-right from 10% to 5%.

@@ -8,6 +8,11 @@
     text-align: center;
 }
 
+#artistcvgrid>img {
+    border: solid;
+    color: black;
+}
+
 #jobdescription {
     font-weight: 100;
     color: #0E0D24;
@@ -51,7 +56,7 @@ header#profilepic>img {
     border-radius: 10px;
     width: 25%;
     float: right;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
 #coverpageimage,
@@ -71,7 +76,11 @@ header#profilepic>img {
 #coverh1 {
     text-align: left;
     font-weight: bold;
+    font-family: "Poller One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
 
 #coverp {
     text-align: left;
@@ -123,7 +132,7 @@ header#profilepic>img {
         list-style: none;
         padding: 0;
         text-align: center;
-        margin-left: 25%;
+        margin-left: 5%;
     }
 }
 
@@ -146,7 +155,7 @@ header#profilepic>img {
         list-style: none;
         padding: 0;
         text-align: center;
-        margin-left: 25%;
+        margin-left: 5%;
     }
 }
 
@@ -158,6 +167,7 @@ header#profilepic>img {
         list-style: none;
         padding: 0;
         text-align: center;
+        margin-left: 5%;
     }
 }
 
@@ -169,6 +179,12 @@ header#profilepic>img {
         list-style: none;
         padding: 0;
         text-align: center;
-        margin-left: 25%;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    #coverpagediv {
+        padding-top: 0px;
     }
 }
