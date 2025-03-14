@@ -81,7 +81,6 @@ header#profilepic>img {
     font-style: normal;
 }
 
-
 #coverp {
     text-align: left;
 }
@@ -112,6 +111,8 @@ header#profilepic>img {
     border-radius: 10px;
 }
 
+
+/*Media quiry for all photo grids*/
 @media only screen and (max-width:1350px) {
     #photographygrid {
         display: grid;
@@ -123,7 +124,6 @@ header#profilepic>img {
     }
 }
 
-/*Media quiry for all photo grids and mobile*/
 @media only screen and (max-width:850px) {
     #photographygrid {
         display: grid;

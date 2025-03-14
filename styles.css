@@ -1,4 +1,4 @@
-/*NAVIGATION MENU*/
+/*navigation menu css*/
 #navmenu ul {
     list-style-type: none;
     padding: 1em 0;
@@ -20,7 +20,8 @@
 #navmenu ul li a.current {
     text-decoration: none;
 }
-
+ 
+/*overall website css*/
 h1 {
     line-height: 1em;
     text-align: center;
@@ -28,7 +29,6 @@ h1 {
     font-weight: 400;
     font-style: normal;
 }
-
 
 h4 {
     color: #741A1B;
@@ -40,12 +40,10 @@ h2 {
     text-align: center;
 }
 
-/*website background*/
 body {
     height: 400px;
     background-image: url(images/solidbackground.jpg)
 }
-
 
 br {
     clear: both;
@@ -59,10 +57,10 @@ article {
     column-rule: 2px solid black;
 }
 
-/*Media query for the menu*/
+
+/*Media query for the navigation menu*/
 @media only screen and (max-width:850px) {
 
-    /*NAV MENU*/
     #navmenu ul {
         display: flex;
         flex-direction: column;
