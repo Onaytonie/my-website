@@ -1,4 +1,4 @@
-/*artsitcv page css*/
+/*artsitcv photgraphy grid */
 #artistcvgrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -8,37 +8,43 @@
     text-align: center;
 }
 
+/*artsitcv picture at the bainbridge island museum */
 #artistcvgrid>img {
     border: solid;
     color: black;
 }
 
+/*artsitcv contemporary artist/photographer line */
 #jobdescription {
     font-weight: 100;
     color: #0E0D24;
 }
 
+/*artsitcv past events listed */
 section#pastevents>h2 {
     padding: .3em;
     text-align: left;
 }
 
+/*artsitcv future events*/
 section#rebelbeauties>h2 {
     padding: .3em;
     text-align: left;
 }
 
+/*artsitcv onaytonie.com website link */
 section#website>h2 {
     padding: .3em;
     text-align: left;
 }
 
+/*artsitcv rebel beauties link hover */
 section#rebelbeauties a:hover {
     font-size: 100%;
     color: #FE9900;
 }
 
-/*index css*/
+/*index contemporary artist/ photographer*/
 #coverpage {
     display: flex;
     padding: 1em;
@@ -46,11 +52,13 @@ section#rebelbeauties a:hover {
     text-align: left;
 }
 
+/*index artist description/ about me */
 #bio {
     padding: 1em;
     columns: 1;
 }
 
+/*index procreate digital image */
 header#profilepic>img {
     border: thin black solid;
     border-radius: 10px;
@@ -59,20 +67,24 @@ header#profilepic>img {
     margin-right: 5%;
 }
 
+/*index css */
 #coverpageimage,
 #coverpagediv {
     flex-basis: 50%;
 }
 
+/*index css */
 #coverpagediv {
     padding: 20px;
     padding-top: 400px;
 }
 
+/*index css */
 #coverh3 {
     text-align: left;
 }
 
+/*index Onaytonie Header/ google font css */
 #coverh1 {
     text-align: left;
     font-weight: bold;
@@ -81,11 +93,12 @@ header#profilepic>img {
     font-style: normal;
 }
 
+/*index body css */
 #coverp {
     text-align: left;
 }
 
-/*paint and party css*/
+/*paint and party photogrid css*/
 #paintandpartygrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -95,7 +108,7 @@ header#profilepic>img {
     text-align: center;
 }
 
-/*Photgraphy css*/
+/*Photgraphy photgrid css*/
 #photographygrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -105,14 +118,14 @@ header#profilepic>img {
     text-align: center;
 }
 
+/*all images css */
 .images {
     width: 400px;
     height: 100%;
     border-radius: 10px;
 }
 
-
-/*Media quiry for all photo grids*/
+/*Media quiery for all photo grids desktop*/
 @media only screen and (max-width:1350px) {
     #photographygrid {
         display: grid;
@@ -121,22 +134,9 @@ header#profilepic>img {
         list-style: none;
         padding: 0;
         text-align: center;
+        margin-bottom: 5%;
     }
-}
 
-@media only screen and (max-width:850px) {
-    #photographygrid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 15px 20px;
-        list-style: none;
-        padding: 0;
-        text-align: center;
-        margin-left: 5%;
-    }
-}
-
-@media only screen and (max-width:1350px) {
     #artistcvgrid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -144,22 +144,9 @@ header#profilepic>img {
         list-style: none;
         padding: 0;
         text-align: center;
-    }
-}
-
-@media only screen and (max-width:850px) {
-    #artistcvgrid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 15px 20px;
-        list-style: none;
-        padding: 0;
-        text-align: center;
         margin-left: 5%;
     }
-}
 
-@media only screen and (max-width:1350px) {
     #paintandpartygrid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -170,8 +157,28 @@ header#profilepic>img {
         margin-left: 5%;
     }
 }
-
+/*Media quiery for all photo grids mobile*/
 @media only screen and (max-width:850px) {
+    #photographygrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px 20px;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        margin-left: 15%;
+    }
+
+    #artistcvgrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px 20px;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        margin-left: 15%;
+    }
+
     #paintandpartygrid {
         display: grid;
         grid-template-columns: 1fr;
@@ -179,11 +186,9 @@ header#profilepic>img {
         list-style: none;
         padding: 0;
         text-align: center;
-        margin-left: 5%;
+        margin-left: 15%;
     }
-}
 
-@media only screen and (max-width:850px) {
     #coverpagediv {
         padding-top: 0px;
     }

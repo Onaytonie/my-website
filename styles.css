@@ -1,4 +1,4 @@
-/*navigation menu css*/
+/*navigation menu css for all pages*/
 #navmenu ul {
     list-style-type: none;
     padding: 1em 0;
@@ -56,7 +56,6 @@ article {
     column-gap: 35px;
     column-rule: 2px solid black;
 }
-
 
 /*Media query for the navigation menu*/
 @media only screen and (max-width:850px) {
